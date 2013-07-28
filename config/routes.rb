@@ -1,4 +1,4 @@
 Sources::Application.routes.draw do
-  resources :Sources
-  root to: '/'
+  resources :sources
+  root to: 'sources#index'
 end
